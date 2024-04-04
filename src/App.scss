@@ -15,7 +15,8 @@ att organisera dina stilar och undvika kollisioner mellan komponenter. */
     background-repeat: no-repeat; /* förhindrar upprepning av bakgrundsbilden */
     
 #app-title{
-    font-family:$font-primary ;
+    font-family:$font-mainTitle ;
     position: absolute;
     top: 40px; left: 80px;
+    color: #FF9F2E;
 }}
