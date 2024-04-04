@@ -1,0 +1,21 @@
+/* app.scss:
+app.scss är vanligtvis används för att definiera komponentspecifika stilar 
+eller stilar som är relaterade till vissa delar av din applikation.
+Här kan du definiera stilar för dina React-komponenter och deras underliggande element.
+Det är vanligt att använda BEM (Block Element Modifier) eller liknande metodiker för 
+att organisera dina stilar och undvika kollisioner mellan komponenter. */
+@import "./components/Scss/Variables/fonts";
+
+#app{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(./assets/img/lollipop.jpg);
+    background-size: cover; /* gör att bakgrundsbilden täcker hela bakgrunden */
+    background-position: center; /* centrerar bakgrundsbilden */
+    background-repeat: no-repeat; /* förhindrar upprepning av bakgrundsbilden */
+    
+#app-title{
+    font-family:$font-primary ;
+    position: absolute;
+    top: 40px; left: 80px;
+}}

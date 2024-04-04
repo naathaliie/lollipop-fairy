@@ -1,0 +1,8 @@
+/* index.scss:
+index.scss är vanligtvis används för globala stilar som påverkar hela applikationen.
+Här kan du definiera grundläggande stilar för saker som body-elementet, HTML-elementet 
+och andra globala selektorer.
+Det kan också vara lämpligt att inkludera importer för biblioteksstilar eller andra
+ globala stilar som du vill använda i hela din applikation. */
+
+@import "./components/Scss/Base/normalize";

@@ -1,9 +1,11 @@
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
     <>
-      <div></div>
+      <div id="app">
+        <h1 id="app-title">✨🧚 lollipop-fairy 🍭💕</h1>
+      </div>
     </>
   );
 }
